@@ -1,0 +1,51 @@
+/* Pagenotfound.css */
+
+/* Style for Pagenotfound component */
+.pnf {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: auto;
+    min-height: 80vh;
+    background: linear-gradient(to bottom, #ffdee9 0%, #b5fffc 100%);
+  }
+  
+  /* Style for the title */
+  .pnf-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the heading */
+  .pnf-heading {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the button container */
+  .pnf-btn-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Style for the buttons */
+  .pnf-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .pnf-btn:hover {
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  

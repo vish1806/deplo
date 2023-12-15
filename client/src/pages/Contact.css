@@ -1,0 +1,51 @@
+/* .card
+{
+    width: 250px;
+    background: rgb(255,222,233);
+    background: linear-gradient(90deg, rgba(255,222,233,1) 0%, rgba(181,255,252,1) 100%);
+} */
+.flexx
+{
+    display: flex;
+
+}
+.card-body
+{
+    color: black;
+    justify-content: space-evenly;
+    text-align: center;   
+}
+.linkedin
+{
+    color: #e987b3;
+}
+.mail
+{
+    color: #e987b3;
+}
+.github
+{
+    color: #e987b3;
+    justify-content: space-between;
+}
+.titlee
+{
+    padding-left: 1.5%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* 
+.card-body
+{
+    background: rgb(255,222,233);
+    background: linear-gradient(90deg, rgba(255,222,233,1) 0%, rgba(181,255,252,1) 100%);
+} */
+
+.category button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
